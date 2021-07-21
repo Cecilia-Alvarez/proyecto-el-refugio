@@ -1,0 +1,17 @@
+@mixin texto {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font: {
+        family: 'Fuggles';
+        size: 4.0rem;
+        weight: bolder;
+        style: italic;
+    }
+}
+
+@mixin sizes {
+    width: 950px;
+    height: 750px;
+    transform: translate(200px);
+}

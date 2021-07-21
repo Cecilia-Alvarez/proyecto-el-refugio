@@ -1,0 +1,103 @@
+@media only screen and (max-width: 478px) {
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color:  red;
+}
+
+#redesSociales {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.listaFooter {
+    list-style: none;
+    color: white;
+}
+
+.redes {
+    width: 45px;
+    height: 45px;
+}
+
+.redSocial {
+    display: flex;
+    align-items: center;
+
+}
+}
+
+@media only screen and (min-width: 600px) {
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 10%;
+        background-color:  red;
+    }
+    
+
+    
+    #redesSociales {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .listaFooter {
+        list-style: none;
+        color: white;
+    }
+    
+    .redes {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .redSocial {
+        display: flex;
+        align-items: flex-start;
+    
+    }
+
+    }
+
+    @media only screen and (min-width: 1024px) {
+            
+    footer {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 10%;
+        background-color:  red;
+    }
+
+    
+    #redesSociales {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .listaFooter {
+        list-style: none;
+        color: white;
+    }
+    
+    .redes {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .redSocial {
+        display: flex;
+        align-items: flex-start;
+    
+    }
+
+    }

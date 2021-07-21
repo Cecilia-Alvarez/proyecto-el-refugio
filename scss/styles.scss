@@ -1,0 +1,364 @@
+@import "body";
+@import "generales";
+@import "header";
+@import "mixins";
+@import "footer";
+
+
+@media only screen and (max-width: 478px) {
+
+        
+    .imgDesayuno {
+        width: $ancho;
+        height: 200px;
+    }
+
+    .cajaTexto {
+        width: 250px;
+        height: 200px;
+        text-align: justify;
+        background-color: white;
+        font-size: large;
+        left: 300px;
+        top: 400px;
+        margin-top: 120px;
+        padding: 20px;
+    } 
+
+
+    .imgCarrusel {
+        width: 350px;
+        height: 200px;
+        margin:auto 0;
+        /* padding: 0; */
+        /* transform: translate(100px, 20px); */
+    }
+
+    .fraseServicios {
+        display: grid;   
+        grid-template-columns: 150px;
+        grid-template-rows: 100;
+    }
+
+    .fraseInspiracional {
+        @include texto;
+        display: none;   
+        grid-template-columns: 470px;
+        grid-template-rows: 550px;
+    }
+    .frase {
+        @include texto;
+        font-family: 'Fuggles';
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 250px;
+        padding-top: 100px;
+    }
+
+    .imgFrase {
+        display: none;
+        width: 300px;
+        height: 200px;
+        padding-top: 100px;
+    }
+
+    .grid {
+        display: grid;   
+        grid-template-columns: 480px;
+        grid-template-rows: 550px;
+    }
+    
+    .contenedor {
+        position: relative;
+    }
+      
+      /* Bottom right text */
+    .text-block {
+        @include texto;
+        bottom: 30%;
+        margin-left: 10%;
+    }
+
+}    
+
+@media only screen and (min-width: 600px) {
+
+    .button {
+        background-color: rgb(138, 2, 2);
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 1px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    
+    .button {
+        background-color: white; 
+        color: rgb(138, 2, 2);
+        border: 2px solid  rgb(138, 2, 2);
+    }
+    
+    .button:hover {
+        background-color: rgb(138, 2, 2);
+        color: rgb(247, 240, 240);
+    }
+
+   
+
+    .cajaTexto {
+        width: 250px;
+        height: 150px;
+        text-align: justify;
+        background-color: white;
+        font-size: large;
+        left: 300px;
+        top: 200px;
+        margin-top: 0;
+        padding: 20px;
+    } 
+
+
+    .imgCarrusel {
+        width: 100%;
+        height: 40%;
+        padding: 0;
+        /* transform: translate(100px, 20px); */
+    }
+
+    .fraseServicios {
+        display: none;   
+        grid-template-columns: 365px 235px;
+        grid-template-rows: 270px 270px;
+    }
+
+    .fraseInspiracional {
+        display: none;   
+        grid-template-columns: 550px;
+        grid-template-rows: 750px;
+    }
+    .frase {
+        @include texto;
+        margin-top: 8%;
+        margin-left: 5%;
+        width: 250px;
+        padding-top: 100px;
+    }
+
+    .imgFrase {
+        width: 350px;
+        height: 250px;
+        padding-top: 100px;
+    }
+
+    .grid {
+        display: grid;   
+        grid-template-columns: 355px 235px;
+        grid-template-rows: 270px 270px;
+    }
+    
+         
+    .imgDesayuno {
+        width: $ancho+100;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .contenedor {
+        position: relative;
+    }
+      
+      /* Bottom right text */
+    .text-block {
+        @include texto;
+        bottom: 30%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+ 
+    .imgDesayuno {
+        width: $ancho+400;
+        height: 550px;
+    }
+    
+    .cajaTexto {
+        width: 450px;
+        height: 250px;
+        text-align: justify;
+        background-color: white;
+        font-size: large;
+        left: 300px;
+        top: 400px;
+        margin-top: 120px;
+        padding: 20px;
+    } 
+
+    .contenedor {
+        position: relative;
+    }
+      
+      /* Bottom right text */
+    .text-block {
+        @include texto;
+        bottom: 50%;
+        right: 20%;
+    }
+
+    .text-center {
+        @include texto;
+        text-align: center;
+        bottom: 30%;
+        right:35%;
+    }
+
+    
+    .habitacion {
+        /* width: 450px;
+        height: 400px; */
+        text-align: justify;
+        background-color: white;
+        font-size: large;
+        /* left: 300px;
+        top: 400px;
+        margin-top: 120px;
+        padding: 20px; */
+    } 
+    
+    
+    .seccionPrincipal { 
+        width: 550px;
+        height: 800px;
+        text-align: justify;
+    }
+    
+    .seccionPrincipal p {
+        font-size: xx-large;
+        color: white;
+        font-style: italic;
+        text-align: center;
+        width: 500px;
+        float: inline-end;
+        position: absolute;
+    }
+    
+    .imgCarrusel {
+        width: 100%;
+        height: 80%;
+        /* transform: translate(100px, 20px); */
+    }
+    
+    .fraseServicios {
+        display: grid;   
+        grid-template-columns: 670px 670px;
+        grid-template-rows: 300px 300px;
+    }
+    
+    .fraseInspiracional {
+        display: grid;   
+        grid-template-columns: 670px 670px;
+        grid-template-rows: 300px 300px;
+    }
+    
+    .frase {
+        @include texto;
+        text-align: center;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        width: 500px;
+    }
+    
+    .imgFrase {
+        width: 650px;
+        height: 550px;
+    }
+    
+    .imgPillow {
+        width: 850px;
+        height: 650px;
+        transform: translate(200px);
+    }
+    
+    .grid {
+        display: grid;   
+        grid-template-columns: 670px 550px;
+        grid-template-rows: 300px 300px;
+    }
+     
+    
+    .imgLlave {
+        @include sizes;
+    }
+    
+    .fraseReservas {
+        color: white;
+        font-weight: bold;
+        font-size: xxx-large;
+        font-style: italic;
+        text-align: center;
+        width: 500px;
+    }
+
+    .imgCasa {
+        @include sizes;
+    }
+
+    .diningSet {
+        @include sizes;
+    }
+    
+    .imgRoom {
+        width: 550px;
+        height: 350px;
+    }
+    
+    #desayunos {
+        display: inline-block;
+        margin: 20px;
+        height: 940px;
+        width: 1200px;
+    }
+    
+    .menuDesayuno {
+        display: inline-block;
+        width: 450px;
+        height: 300px;
+        background-color: rgb(236, 213, 163);
+        margin: 25px;
+        padding: 45px;
+        text-align: justify;
+    }
+    
+    #contenedorArea {
+        display: inline-block;
+        margin: 20px;
+        height: 1300px;
+        width: 1400px;
+    }
+    
+    .area {
+            display: inline-block;
+            width: 550px;
+            height: 550px;
+            margin: 25px;
+            padding-right: 45px;
+            text-align: justify;
+    }
+
+    .area_img {
+        width: 550px;
+        height: 350px;
+    }
+
+    .area_texto {
+        font-family: sans-serif;
+    }
+  
+}
+

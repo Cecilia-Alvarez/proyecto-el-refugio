@@ -1,0 +1,540 @@
+.body {
+  background-color: white; }
+
+h1, h2, h3 {
+  color: red;
+  font-family: 'Cinzel'; }
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 0%;
+  margin-bottom: 0%; }
+
+h2 {
+  font-size: x-large; }
+
+h3 {
+  font-size: large; }
+
+h4 {
+  font-size: large;
+  color: white; }
+
+@media only screen and (max-width: 478px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%; }
+  #brand {
+    animation: fadeInDown;
+    animation-duration: 3s; }
+  #brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 35%; }
+    #brand p {
+      color: red;
+      font-size: small;
+      font-family: sans-serif; }
+  #logo {
+    width: 45%;
+    height: 10%; }
+  #menuNavegacion {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium; }
+  #menuNavegacion {
+    animation: fadeInDown;
+    animation-duration: 2s;
+    background-color: red; }
+    #menuNavegacion li a {
+      color: red;
+      text-decoration: none;
+      background-color: white;
+      padding: 10px 15px;
+      border: none;
+      text-align: center; }
+  header li a :hover {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+    text-align: center; } }
+
+@media only screen and (min-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%; }
+  #brand {
+    animation: fadeInDown;
+    animation-duration: 3s; }
+  #brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 80%; }
+    #brand p {
+      color: red;
+      font-size: small;
+      font-family: sans-serif; }
+  #logo {
+    width: 55%;
+    height: 20%; }
+  #menuNavegacion {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium; }
+  #menuNavegacion {
+    animation: fadeInDown;
+    animation-duration: 2s;
+    background-color: red; }
+    #menuNavegacion li a {
+      color: red;
+      text-decoration: none;
+      background-color: white;
+      padding: 10px 15px;
+      border: none;
+      text-align: center; }
+  header li a :hover {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+    text-align: center; } }
+
+@media only screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%; }
+  #brand {
+    animation: fadeInDown;
+    animation-duration: 3s; }
+  #brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 60%; }
+    #brand p {
+      color: red;
+      font-size: small;
+      font-family: sans-serif; }
+  #logo {
+    width: 55%;
+    height: 20%; }
+  #menuNavegacion {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium; }
+  #menuNavegacion {
+    animation: fadeInDown;
+    animation-duration: 2s;
+    background-color: red; }
+    #menuNavegacion li a {
+      color: red;
+      text-decoration: none;
+      background-color: white;
+      padding: 10px 15px;
+      border: none;
+      text-align: center; }
+  header li a :hover {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 15px;
+    border: none;
+    text-align: center; } }
+
+@media only screen and (max-width: 478px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: red; }
+  #redesSociales {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .listaFooter {
+    list-style: none;
+    color: white; }
+  .redes {
+    width: 45px;
+    height: 45px; }
+  .redSocial {
+    display: flex;
+    align-items: center; } }
+
+@media only screen and (min-width: 600px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 10%;
+    background-color: red; }
+  #redesSociales {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .listaFooter {
+    list-style: none;
+    color: white; }
+  .redes {
+    width: 50px;
+    height: 50px; }
+  .redSocial {
+    display: flex;
+    align-items: flex-start; } }
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 10%;
+    background-color: red; }
+  #redesSociales {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+  .listaFooter {
+    list-style: none;
+    color: white; }
+  .redes {
+    width: 50px;
+    height: 50px; }
+  .redSocial {
+    display: flex;
+    align-items: flex-start; } }
+
+@media only screen and (max-width: 478px) {
+  .imgDesayuno {
+    width: 300px;
+    height: 200px; }
+  .cajaTexto {
+    width: 250px;
+    height: 200px;
+    text-align: justify;
+    background-color: white;
+    font-size: large;
+    left: 300px;
+    top: 400px;
+    margin-top: 120px;
+    padding: 20px; }
+  .imgCarrusel {
+    width: 350px;
+    height: 200px;
+    margin: auto 0;
+    /* padding: 0; */
+    /* transform: translate(100px, 20px); */ }
+  .fraseServicios {
+    display: grid;
+    grid-template-columns: 150px;
+    grid-template-rows: 100; }
+  .fraseInspiracional {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Fuggles';
+    font-size: 4.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    display: none;
+    grid-template-columns: 470px;
+    grid-template-rows: 550px; }
+  .frase {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Fuggles';
+    font-size: 4.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Fuggles';
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 250px;
+    padding-top: 100px; }
+  .imgFrase {
+    display: none;
+    width: 300px;
+    height: 200px;
+    padding-top: 100px; }
+  .grid {
+    display: grid;
+    grid-template-columns: 480px;
+    grid-template-rows: 550px; }
+  .contenedor {
+    position: relative; }
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Fuggles';
+    font-size: 4.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    bottom: 30%;
+    margin-left: 10%; } }
+
+@media only screen and (min-width: 600px) {
+  .button {
+    background-color: #8a0202;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer; }
+  .button {
+    background-color: white;
+    color: #8a0202;
+    border: 2px solid #8a0202; }
+  .button:hover {
+    background-color: #8a0202;
+    color: #f7f0f0; }
+  .cajaTexto {
+    width: 250px;
+    height: 150px;
+    text-align: justify;
+    background-color: white;
+    font-size: large;
+    left: 300px;
+    top: 200px;
+    margin-top: 0;
+    padding: 20px; }
+  .imgCarrusel {
+    width: 100%;
+    height: 40%;
+    padding: 0;
+    /* transform: translate(100px, 20px); */ }
+  .fraseServicios {
+    display: none;
+    grid-template-columns: 365px 235px;
+    grid-template-rows: 270px 270px; }
+  .fraseInspiracional {
+    display: none;
+    grid-template-columns: 550px;
+    grid-template-rows: 750px; }
+  .frase {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Fuggles';
+    font-size: 4.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 250px;
+    padding-top: 100px; }
+  .imgFrase {
+    width: 350px;
+    height: 250px;
+    padding-top: 100px; }
+  .grid {
+    display: grid;
+    grid-template-columns: 355px 235px;
+    grid-template-rows: 270px 270px; }
+  .imgDesayuno {
+    width: 400px;
+    height: 300px;
+    margin-top: 30px; }
+  .contenedor {
+    position: relative; }
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Fuggles';
+    font-size: 4.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    bottom: 30%;
+    margin-left: 10%; } }
+
+@media only screen and (min-width: 1024px) {
+  .imgDesayuno {
+    width: 700px;
+    height: 550px; }
+  .cajaTexto {
+    width: 450px;
+    height: 250px;
+    text-align: justify;
+    background-color: white;
+    font-size: large;
+    left: 300px;
+    top: 400px;
+    margin-top: 120px;
+    padding: 20px; }
+  .contenedor {
+    position: relative; }
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Fuggles';
+    font-size: 4.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    bottom: 50%;
+    right: 20%; }
+  .text-center {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Fuggles';
+    font-size: 4.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    bottom: 30%;
+    right: 35%; }
+  .habitacion {
+    /* width: 450px;
+        height: 400px; */
+    text-align: justify;
+    background-color: white;
+    font-size: large;
+    /* left: 300px;
+        top: 400px;
+        margin-top: 120px;
+        padding: 20px; */ }
+  .seccionPrincipal {
+    width: 550px;
+    height: 800px;
+    text-align: justify; }
+  .seccionPrincipal p {
+    font-size: xx-large;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    width: 500px;
+    float: inline-end;
+    position: absolute; }
+  .imgCarrusel {
+    width: 100%;
+    height: 80%;
+    /* transform: translate(100px, 20px); */ }
+  .fraseServicios {
+    display: grid;
+    grid-template-columns: 670px 670px;
+    grid-template-rows: 300px 300px; }
+  .fraseInspiracional {
+    display: grid;
+    grid-template-columns: 670px 670px;
+    grid-template-rows: 300px 300px; }
+  .frase {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Fuggles';
+    font-size: 4.0rem;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    width: 500px; }
+  .imgFrase {
+    width: 650px;
+    height: 550px; }
+  .imgPillow {
+    width: 850px;
+    height: 650px;
+    transform: translate(200px); }
+  .grid {
+    display: grid;
+    grid-template-columns: 670px 550px;
+    grid-template-rows: 300px 300px; }
+  .imgLlave {
+    width: 950px;
+    height: 750px;
+    transform: translate(200px); }
+  .fraseReservas {
+    color: white;
+    font-weight: bold;
+    font-size: xxx-large;
+    font-style: italic;
+    text-align: center;
+    width: 500px; }
+  .imgCasa {
+    width: 950px;
+    height: 750px;
+    transform: translate(200px); }
+  .diningSet {
+    width: 950px;
+    height: 750px;
+    transform: translate(200px); }
+  .imgRoom {
+    width: 550px;
+    height: 350px; }
+  #desayunos {
+    display: inline-block;
+    margin: 20px;
+    height: 940px;
+    width: 1200px; }
+  .menuDesayuno {
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    background-color: #ecd5a3;
+    margin: 25px;
+    padding: 45px;
+    text-align: justify; }
+  #contenedorArea {
+    display: inline-block;
+    margin: 20px;
+    height: 1300px;
+    width: 1400px; }
+  .area {
+    display: inline-block;
+    width: 550px;
+    height: 550px;
+    margin: 25px;
+    padding-right: 45px;
+    text-align: justify; }
+  .area_img {
+    width: 550px;
+    height: 350px; }
+  .area_texto {
+    font-family: sans-serif; } }
